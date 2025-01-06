@@ -40,3 +40,10 @@ import os
 file_path ='change_perFile.py'
 os.chmod(file_path,0o775)
 print("permissions change")
+
+Description:  
+At the beginning I start by opening a terminal window. Once the terminal is open, I create 
+python file by write nano following by name of file , once click enter it will open file and 
+know write code to change permission type .. then exit the file and write python3 following 
+by name of file to run file then use the ls command, which will display the names of all files, 
+including Python files that modified to permission (-rwxrwxr-x) .
